@@ -1,0 +1,30 @@
+﻿@model IEnumerable<dm.Models.Services>
+
+
+
+<div class="row mt-5">
+    <h2>Your Services</h2>
+    @foreach (var item in Model)
+    {
+        <div class="max-w-md w-full bg-white shadow-lg rounded-md p-6">
+
+            <!-- Author and Description -->
+            <div class="mb-4">
+                <p class="text-gray-700 text-md">@item.Heading</p>
+            </div>
+
+            <!-- Subheading and Title -->
+            <div class="mb-4">
+                <h4 class="text-gray-600 text-md">@item.About</h4>
+            </div>
+
+            <div class="mt-4">
+
+                <div>
+                    <a class="btn btn-outline-danger" asp-route-id="@item.Id" asp-action="deleteService">Delete</a>
+                </div>
+            </div>
+
+        </div>
+    }
+</div>

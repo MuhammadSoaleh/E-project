@@ -1,0 +1,25 @@
+﻿@model dm.Models.Services
+<div class="mt-5">
+
+    <h1>
+        Add Services
+    </h1>
+
+<form method="post" enctype="multipart/form-data" class="mt-3">
+
+    <div class="row g-3">
+
+        <div class="col">
+                <label for="InputHeading" class="form-label">Heading</label>
+                <input type="text" class="form-control" asp-for="Heading" placeholder="Heading" aria-label="Heading">
+        </div>
+
+        <div class="col">
+                <label for="InputAbout" class="form-label">About</label>
+                <input type="text" class="form-control" asp-for="About" placeholder="About" aria-label="About">
+        </div>
+
+        <button type="submit" class="btn btn-primary ">Add Service </button>
+    </div>
+</form>
+</div>

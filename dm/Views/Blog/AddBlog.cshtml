@@ -1,0 +1,52 @@
+﻿@model dm.Models.Blog
+
+<div style="margin-top: 0px;">
+    
+    <h1>
+        Add Blog
+    </h1>
+
+    <form method="post" enctype="multipart/form-data">
+
+        <div class="row g-3">
+
+            <div class="col">
+                <label for="InputTitle" class="form-label">Title</label>
+                <input type="text" class="form-control" asp-for="Title" placeholder="Title" aria-label="Title">
+            </div>
+
+            <div class="col">
+                <label for="InputSubHeading" class="form-label">SubHeading</label>
+                <input type="text" class="form-control" asp-for="Subheading" placeholder="SubHeading" aria-label="SubHeading">
+            </div>
+
+        </div>
+
+        <div class="row g-3">
+
+            <div class="col">
+                <label for="InputDescription" class="form-label">Description</label>
+                <input type="text" class="form-control" asp-for="Description" placeholder="Description" aria-label="Description">
+            </div>
+
+            <div class="col">
+                <label for="InputSubHeading" class="form-label">Author</label>
+                <input type="text" class="form-control" asp-for="Author" placeholder="SubHeading" aria-label="SubHeading">
+            </div>
+
+        </div>
+
+        <div class="row g-3 mb-2">
+            <div class="col">
+                <label for="InputTitle" class="form-label">Content</label>
+                <input type="text" class="form-control" asp-for="Content" placeholder="Title" aria-label="Title">
+            </div>
+        </div>
+        <div class="row g-3 mb-2">
+            <input type="file" asp-for="Image" name="imgfile" class="form-control" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+
+        </div>
+
+        <button type="submit" class="btn btn-primary">Add Blog 😊</button>
+    </form>
+</div>

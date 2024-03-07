@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|c:\\users\\ashha\\onedrive\\desktop\\new folder (4)\\dm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|solutionrelative:dm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|c:\\users\\ashha\\onedrive\\desktop\\new folder (4)\\dm\\migrations\\20240304092737_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|solutionrelative:dm\\migrations\\20240304092737_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|c:\\users\\ashha\\onedrive\\desktop\\new folder (4)\\dm\\views\\service\\fetchservices.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|solutionrelative:dm\\views\\service\\fetchservices.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|c:\\users\\ashha\\onedrive\\desktop\\new folder (4)\\dm\\views\\service\\addservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|solutionrelative:dm\\views\\service\\addservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|c:\\users\\ashha\\onedrive\\desktop\\new folder (4)\\dm\\views\\employee\\fetchemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|solutionrelative:dm\\views\\employee\\fetchemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|c:\\users\\ashha\\onedrive\\desktop\\new folder (4)\\dm\\views\\employee\\editemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|solutionrelative:dm\\views\\employee\\editemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|c:\\users\\ashha\\onedrive\\desktop\\new folder (4)\\dm\\views\\employee\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|solutionrelative:dm\\views\\employee\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|c:\\users\\ashha\\onedrive\\desktop\\new folder (4)\\dm\\views\\blog\\fetch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|solutionrelative:dm\\views\\blog\\fetch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|c:\\users\\ashha\\onedrive\\desktop\\new folder (4)\\dm\\views\\blog\\editblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|solutionrelative:dm\\views\\blog\\editblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|c:\\users\\ashha\\onedrive\\desktop\\new folder (4)\\dm\\views\\blog\\addblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|solutionrelative:dm\\views\\blog\\addblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|c:\\users\\ashha\\onedrive\\desktop\\new folder (4)\\dm\\views\\adminpanel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|solutionrelative:dm\\views\\adminpanel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|c:\\users\\ashha\\onedrive\\desktop\\new folder (4)\\dm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|solutionrelative:dm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|c:\\users\\ashha\\onedrive\\desktop\\new folder (4)\\dm\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|solutionrelative:dm\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|c:\\users\\ashha\\onedrive\\desktop\\new folder (4)\\dm\\constants\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|solutionrelative:dm\\constants\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|c:\\users\\ashha\\onedrive\\desktop\\new folder (4)\\dm\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C35FC38-B5FB-46CB-B032-B7AF11BACDAD}|dm\\dm.csproj|solutionrelative:dm\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240304092737_New.cs",
+              "DocumentMoniker": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Migrations\\20240304092737_New.cs",
+              "RelativeDocumentMoniker": "dm\\Migrations\\20240304092737_New.cs",
+              "ToolTip": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Migrations\\20240304092737_New.cs",
+              "RelativeToolTip": "dm\\Migrations\\20240304092737_New.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:27:38.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddService.cshtml",
+              "DocumentMoniker": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Views\\Service\\AddService.cshtml",
+              "RelativeDocumentMoniker": "dm\\Views\\Service\\AddService.cshtml",
+              "ToolTip": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Views\\Service\\AddService.cshtml",
+              "RelativeToolTip": "dm\\Views\\Service\\AddService.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T09:25:48.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FetchEmployee.cshtml",
+              "DocumentMoniker": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Views\\Employee\\FetchEmployee.cshtml",
+              "RelativeDocumentMoniker": "dm\\Views\\Employee\\FetchEmployee.cshtml",
+              "ToolTip": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Views\\Employee\\FetchEmployee.cshtml",
+              "RelativeToolTip": "dm\\Views\\Employee\\FetchEmployee.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T09:25:37.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditEmployee.cshtml",
+              "DocumentMoniker": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Views\\Employee\\EditEmployee.cshtml",
+              "RelativeDocumentMoniker": "dm\\Views\\Employee\\EditEmployee.cshtml",
+              "ToolTip": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Views\\Employee\\EditEmployee.cshtml",
+              "RelativeToolTip": "dm\\Views\\Employee\\EditEmployee.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T09:25:32.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddEmployee.cshtml",
+              "DocumentMoniker": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Views\\Employee\\AddEmployee.cshtml",
+              "RelativeDocumentMoniker": "dm\\Views\\Employee\\AddEmployee.cshtml",
+              "ToolTip": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Views\\Employee\\AddEmployee.cshtml",
+              "RelativeToolTip": "dm\\Views\\Employee\\AddEmployee.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T09:25:25.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\appsettings.json",
+              "RelativeDocumentMoniker": "dm\\appsettings.json",
+              "ToolTip": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\appsettings.json",
+              "RelativeToolTip": "dm\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-04T09:05:36.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FetchServices.cshtml",
+              "DocumentMoniker": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Views\\Service\\FetchServices.cshtml",
+              "RelativeDocumentMoniker": "dm\\Views\\Service\\FetchServices.cshtml",
+              "ToolTip": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Views\\Service\\FetchServices.cshtml",
+              "RelativeToolTip": "dm\\Views\\Service\\FetchServices.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T09:25:54.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Fetch.cshtml",
+              "DocumentMoniker": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Views\\Blog\\Fetch.cshtml",
+              "RelativeDocumentMoniker": "dm\\Views\\Blog\\Fetch.cshtml",
+              "ToolTip": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Views\\Blog\\Fetch.cshtml",
+              "RelativeToolTip": "dm\\Views\\Blog\\Fetch.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T09:25:17.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "editBlog.cshtml",
+              "DocumentMoniker": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Views\\Blog\\editBlog.cshtml",
+              "RelativeDocumentMoniker": "dm\\Views\\Blog\\editBlog.cshtml",
+              "ToolTip": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Views\\Blog\\editBlog.cshtml",
+              "RelativeToolTip": "dm\\Views\\Blog\\editBlog.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T09:25:12.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddBlog.cshtml",
+              "DocumentMoniker": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Views\\Blog\\AddBlog.cshtml",
+              "RelativeDocumentMoniker": "dm\\Views\\Blog\\AddBlog.cshtml",
+              "ToolTip": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Views\\Blog\\AddBlog.cshtml",
+              "RelativeToolTip": "dm\\Views\\Blog\\AddBlog.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T09:25:06.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Views\\AdminPanel\\Index.cshtml",
+              "RelativeDocumentMoniker": "dm\\Views\\AdminPanel\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Views\\AdminPanel\\Index.cshtml",
+              "RelativeToolTip": "dm\\Views\\AdminPanel\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T09:25:00.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "dm\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "dm\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T09:21:05.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Program.cs",
+              "RelativeDocumentMoniker": "dm\\Program.cs",
+              "ToolTip": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Program.cs",
+              "RelativeToolTip": "dm\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:13:23.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Constants\\Roles.cs",
+              "RelativeDocumentMoniker": "dm\\Constants\\Roles.cs",
+              "ToolTip": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Constants\\Roles.cs",
+              "RelativeToolTip": "dm\\Constants\\Roles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:12:28.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "dm\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ashha\\OneDrive\\Desktop\\New folder (4)\\dm\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "dm\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:09:58.968Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

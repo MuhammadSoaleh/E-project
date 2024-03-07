@@ -1,0 +1,47 @@
+﻿@model IEnumerable<dm.Models.Blog>
+
+<div class="blog-container">
+    <h2>Blog Posts</h2>
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+
+
+
+            <div class="max-w-md w-full bg-white shadow-lg rounded-md p-6">
+    <!-- Blog Image -->
+                <img src="~/@item.Image" alt="Blog Image" class="mb-4 rounded-md w-100">
+
+    <!-- Author and Description -->
+    <div class="mb-4">
+                    <p class="text-gray-500 text-sm">By <span class="font-semibold">@item.Author</span></p>
+                    <p class="text-gray-700 text-md">@item.Description</p>
+    </div>
+
+    <!-- Subheading and Title -->
+    <div class="mb-4">
+                    <h4 class="text-gray-600 text-md">@item.Subheading</h4>
+                    <h2 class="text-2xl font-semibold">@item.Author</h2>
+    </div>
+
+    <!-- Content -->
+    <div class="text-gray-800 leading-relaxed">
+                    <p>@item.Content</p>
+        <!-- Additional content goes here -->
+    </div>
+
+    <!-- Back to Home Button -->
+    <div class="mt-4">
+        
+        <div>
+                        @* <a class="btn btn-outline-primary" asp-route-id="@item.Id" asp-action="editBlog">Edit</a> *@
+                        <a class="btn btn-outline-danger" asp-route-id="@item.Id" asp-action="deleteBlog">Delete</a>
+                        
+        </div>
+    </div>
+</div>
+        }
+    </div>
+
+</div>
