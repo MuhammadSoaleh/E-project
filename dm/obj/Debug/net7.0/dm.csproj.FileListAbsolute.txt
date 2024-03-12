@@ -787,3 +787,4 @@ C:\Users\Muhammad Rafay\source\repos\E-project-master\dm\obj\Debug\net7.0\refint
 C:\Users\Muhammad Rafay\source\repos\E-project-master\dm\obj\Debug\net7.0\dm.pdb
 C:\Users\Muhammad Rafay\source\repos\E-project-master\dm\obj\Debug\net7.0\dm.genruntimeconfig.cache
 C:\Users\Muhammad Rafay\source\repos\E-project-master\dm\obj\Debug\net7.0\ref\dm.dll
+C:\Users\Muhammad Rafay\source\repos\E-project-master\dm\obj\Debug\net7.0\dm.sourcelink.json
