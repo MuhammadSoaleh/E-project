@@ -8,5 +8,25 @@ namespace dm.Controllers
         {
             return View();
         }
-    }
+		public IActionResult users_profile()
+		{
+			return View();
+		}
+		public IActionResult pages_faq()
+		{
+			return View();
+		}
+		public IActionResult pages_contact()
+		{
+			return View();
+		}
+		public IActionResult pages_login()
+		{
+			return View();
+		}
+		public IActionResult pages_error_404()
+		{
+			return View();
+		}
+	}
 }

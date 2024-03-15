@@ -298,6 +298,10 @@ namespace dm.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Heading")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

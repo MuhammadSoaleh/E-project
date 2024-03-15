@@ -13,18 +13,19 @@ namespace dm.Controllers
         {
             this.applicationDBContext = applicationDBContext;
         }
-        public IActionResult AddService()
+        public IActionResult AddServices()
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult AddService(Services addService)
+        public IActionResult AddServices(Services addService)
         {
             var service = new Services
             {
                 Heading = addService.Heading,
                 About = addService.About,
+                Content = addService.Content
             };
             applicationDBContext.Services.Add(addService);
             applicationDBContext.SaveChanges();
@@ -41,6 +42,26 @@ namespace dm.Controllers
             applicationDBContext.SaveChanges();
             return RedirectToAction("FetchServices");
         }
+        public IActionResult EditServices(int id)
+        {
 
+            return View(applicationDBContext.Services.Find(id));
+        }
+        [HttpPost]
+        public IActionResult EditServices(Services addService)
+        {
+
+            applicationDBContext.Services.Update(addService);
+            applicationDBContext.SaveChanges();
+            return RedirectToAction("FetchServices");
+        }
+
+        public IActionResult delete(int id)
+        {
+            Services addService = applicationDBContext.Services.Find(id);
+            applicationDBContext.Services.Remove(addService);
+            applicationDBContext.SaveChanges();
+            return RedirectToAction("FetchServices");
+        }
     }
 }

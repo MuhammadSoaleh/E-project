@@ -182,6 +182,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Muhammad Rafay/source/repos/E-project-master/dm/Views/AdminPanel/pages_contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxwYWdlc19jb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Rafay/source/repos/E-project-master/dm/Views/AdminPanel/pages_error_404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxwYWdlc19lcnJvcl80MDQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Rafay/source/repos/E-project-master/dm/Views/AdminPanel/pages_faq.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxwYWdlc19mYXEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Rafay/source/repos/E-project-master/dm/Views/AdminPanel/pages_login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxwYWdlc19sb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Rafay/source/repos/E-project-master/dm/Views/AdminPanel/users_profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFx1c2Vyc19wcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Muhammad Rafay/source/repos/E-project-master/dm/Views/Blog/AddBlog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xBZGRCbG9nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -290,8 +310,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx3ZWJkZXZlbG9wbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammad Rafay/source/repos/E-project-master/dm/Views/Service/AddService.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxBZGRTZXJ2aWNlLmNzaHRtbA==
+[C:/Users/Muhammad Rafay/source/repos/E-project-master/dm/Views/Service/AddServices.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxBZGRTZXJ2aWNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Rafay/source/repos/E-project-master/dm/Views/Service/EditServices.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxFZGl0U2VydmljZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Muhammad Rafay/source/repos/E-project-master/dm/Views/Service/FetchServices.cshtml]
@@ -300,6 +324,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Muhammad Rafay/source/repos/E-project-master/dm/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammad Rafay/source/repos/E-project-master/dm/Views/Shared/_Layoutadmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRhZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Muhammad Rafay/source/repos/E-project-master/dm/Views/Shared/_LoginPartial.cshtml]

@@ -1,25 +1,32 @@
 ﻿@model IEnumerable<dm.Models.Employees>
 @{
-    ViewData["Title"] = "Employee List";
-   
+
+    Layout = "~/Views/Shared/_Layoutadmin.cshtml";
 }
+<body>
 
-<h1>Employee List</h1>
 
-<table class="table table-striped">
-    <thead class="thead-dark">
-        <tr>
-            <th>Id</th>
-            <th>Name</th>
-            <th>About</th>
-            <th>Designation</th>
-            <th>Image</th>
-            <th>Action</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var employee in Model)
-        {
+
+ 
+  <main id="main" class="main">
+    <div class="card-body">
+      <h5 class="card-title">Total Employee</h5>
+
+      <!-- Default Table -->
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Content</th>
+            <th scope="col">Position</th>
+            <th scope="col">Picture</th>
+            <th scope="col">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+                    @foreach (var employee in Model)
+                    {
             <tr>
                 <td>@employee.Id</td>
                 <td>@employee.Name</td>
@@ -27,11 +34,22 @@
                 <td>@employee.Designation</td>
                 <td><img src="~/@employee.Image" style="max-width: 100px;" class="img-fluid" /></td>
                 <td>
-                    <a href="@Url.Action("EditEmployee", new { id = employee.Id })">Edit</a> |
-                    <a href="@Url.Action("DeleteEmployee", new { id = employee.Id })">Delete</a>
+                                <a class="btn btn-outline-danger" asp-route-id="@employee.Id" asp-action="delete">Delete</a>
+                                <a class="btn btn-outline-primary" asp-route-id="@employee.Id" asp-controller="service" asp-action="Editemployee">Edit</a>
                 </td>
             </tr>
-        }
-    </tbody>
-</table>
+                    }
 
+        </tbody>
+      </table>
+      <!-- End Default Table Example -->
+    </div>
+
+  </main>
+
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+</body>

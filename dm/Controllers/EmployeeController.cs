@@ -78,5 +78,21 @@ namespace dm.Controllers
             applicationDBContext.SaveChanges();
             return RedirectToAction("FetchEmployee");
         }
+        [HttpPost]
+        public IActionResult Editemployee(Employees employee, int id)
+        {
+
+            applicationDBContext.Employees.Update(employee);
+            applicationDBContext.SaveChanges();
+            return RedirectToAction("FetchEmployee");
+        }
+
+        public IActionResult delete(int id)
+        {
+            Employees employee = applicationDBContext.Employees.Find(id);
+            applicationDBContext.Employees.Remove(employee);
+            applicationDBContext.SaveChanges();
+            return RedirectToAction("FetchEmployee");
+        }
     }
 }
