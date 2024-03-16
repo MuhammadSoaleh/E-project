@@ -1,22 +1,27 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace dm.Controllers
 {
     public class AdminPanelController : Controller
-    {
+	{
+		[Authorize]
         public IActionResult Index()
         {
             return View();
         }
-		public IActionResult users_profile()
+        [Authorize]
+        public IActionResult users_profile()
 		{
 			return View();
 		}
-		public IActionResult pages_faq()
+        [Authorize]
+        public IActionResult pages_faq()
 		{
 			return View();
 		}
-		public IActionResult pages_contact()
+        [Authorize]
+        public IActionResult pages_contact()
 		{
 			return View();
 		}

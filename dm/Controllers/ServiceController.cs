@@ -1,6 +1,7 @@
 ﻿using Azure;
 using dm.Data;
 using dm.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace dm.Controllers
@@ -13,6 +14,7 @@ namespace dm.Controllers
         {
             this.applicationDBContext = applicationDBContext;
         }
+        [Authorize]
         public IActionResult AddServices()
         {
             return View();
@@ -31,6 +33,7 @@ namespace dm.Controllers
             applicationDBContext.SaveChanges();
             return View();
         }
+        [Authorize]
         public IActionResult FetchServices()
         {
             return View(applicationDBContext.Services.ToList());
@@ -47,6 +50,7 @@ namespace dm.Controllers
 
             return View(applicationDBContext.Services.Find(id));
         }
+        [Authorize]
         [HttpPost]
         public IActionResult EditServices(Services addService)
         {
@@ -55,7 +59,7 @@ namespace dm.Controllers
             applicationDBContext.SaveChanges();
             return RedirectToAction("FetchServices");
         }
-
+        [Authorize]
         public IActionResult delete(int id)
         {
             Services addService = applicationDBContext.Services.Find(id);

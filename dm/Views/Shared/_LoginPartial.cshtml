@@ -3,29 +3,23 @@
 @inject UserManager<IdentityUser> UserManager
 
 <ul class="navbar-nav">
-@if (SignInManager.IsSignedIn(User))
-{
-    @* <li class="nav-item">
-        <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
+    @if (SignInManager.IsSignedIn(User))
+    {
+        @* <li class="nav-item">
+    <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
     </li> *@
-        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39 mt-3 out" >
-        <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                    <button   type="submit" class="elementor-button elementor-button-link elementor-size-sm ">Logout</button>
-        </form>
-    </li>
-        @if (User.IsInRole("Admin"))
-        {
-           @*  <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40">
-                <a class="elementor-item" asp-area="" asp-controller="AdminPanel" asp-action="Index">AdminPanel</a>
-            </li> *@
+        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39 mt-3 out">
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button type="submit" class="elementor-button elementor-button-link elementor-size-sm ">Logout</button>
+            </form>
+        </li>
+       
+    }
+    else
+    {
 
-        }
-}
-else
-{
-
-        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39 mt-3 out" >
-                <a class="elementor-button elementor-button-link elementor-size-sm " asp-area="Identity"  asp-page="/Account/Login">Login</a>
-    </li>
-}
+        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39 mt-3 out">
+            <a class="elementor-button elementor-button-link elementor-size-sm " asp-area="Identity" asp-page="/Account/Login">Login</a>
+        </li>
+    }
 </ul>
